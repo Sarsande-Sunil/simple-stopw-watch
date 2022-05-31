@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #eceff1;
+  color: #010b40;
+}
+.app {
+  background-color: #0e4d92;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  border-radius: 25px;
+  margin-top: 180px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.stopwatch-card {
+  margin-top: 100px;
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 425px;
+  height:220px;
+  top: 110px;
+  left: 50%;
+  border-radius: 25px;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: 1px solid blue;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
